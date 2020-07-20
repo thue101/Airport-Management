@@ -2,18 +2,19 @@ package com.thulani.airportmanagement.domain;
 
 public class Aircraft {
     private String model;
-    private int nbSeats;
+    private int numberOfSeats;
 
-    public Aircraft(String model, int nbSeats) {
+    public Aircraft(String model, int numberbOfSeats) {
         this.model = model;
-        this.nbSeats = nbSeats;
+        this.numberOfSeats = numberbOfSeats;
     }
 
     public String getModel() {
+
         return model;
     }
 
     public int getNbSeats() {
-        return nbSeats;
+        return numberOfSeats;
     }
 }
